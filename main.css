@@ -140,7 +140,7 @@ input[type="radio"]{
     margin-top: 15px;
 }
 .middle-right input[type=submit]{
-    background-color: green;
+    background-color: #42B72A;
     color: white;
     font-size: 20px;
     padding: 5px;
