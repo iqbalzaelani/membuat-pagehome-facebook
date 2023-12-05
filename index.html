@@ -54,15 +54,15 @@
                 <p> Its's free and always will be.</p>
 
                 <form action="">
-                    <input type="text" placeholder="First name" class="inline">
-                    <input type="text" placeholder="Last name" class="inline inline_last">
+                    <input type="text" placeholder="First name" class="inline" required>
+                    <input type="text" placeholder="Last name" class="inline inline_last" required>
                     <input type="email" placeholder="Email or mobile number">
                     <input type="email" placeholder="Re-enter Email or mobile number">
                     <input type="password" placeholder="New Password">
 
                     <p><b>Birthday</b></p>
                     <br>
-                    <select name="Month" id="">
+                    <select name="Month" id="" required>
                         <option value="">Month</option>
                         <option value="">Jan</option>
                         <option value="">Feb</option>
@@ -78,7 +78,7 @@
                         <option value="">Dec</option>
                     </select>
 
-                    <select name="Day" id="">
+                    <select name="Day" id="" required>
                         <option value="">Day</option>
                         <option value="">1</option>
                         <option value="">2</option>
@@ -113,7 +113,7 @@
                         <option value="">31</option>
                     </select>
 
-                    <select name="Year" id="">
+                    <select name="Year" id="" required>
                         <option value="">Year</option>
                         <option value="">2000</option>
                         <option value="">2001</option>
@@ -143,10 +143,10 @@
 
                     <a href="" id="birthday_info">Why do I need to provide my birthday?</a>
                     <br>
-                    <input type="radio" name="gender" id="gender_f">
+                    <input type="radio" name="gender" id="gender_f" required>
                     <label for="gender_f">Female</label>
 
-                    <input type="radio" name="gender" id="gender_m">
+                    <input type="radio" name="gender" id="gender_m" required>
                     <label for="gender_m">Male</label>
 
                     <p id="register_info">
